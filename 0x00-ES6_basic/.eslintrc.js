@@ -11,7 +11,11 @@ module.exports = {
 		'sourceType': 'module'
 	},
 	'rules': {
-		'indent':off,
+		'indent': [
+			'error',
+			'tab'
+		],
+        
 		'linebreak-style': [
 			'error',
 			'unix'
