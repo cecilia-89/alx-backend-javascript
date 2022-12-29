@@ -18,6 +18,11 @@
   "scripts": {
     "test": "jest"
   },
+
+  "env": {
+    "es6": true
+  },
+  
   "keywords": [],
   "author": "",
   "license": "ISC"
