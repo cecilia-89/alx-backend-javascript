@@ -28,9 +28,27 @@
 			"error",
 			"never"],
 
+		"object-curly-spacing": [
+			"error",
+			"always"],
+
+		"object-curly-newline": [
+		"error",
+		"always"],
+
+		"key-spacing": [
+		"error",
+		{ "beforeColon": false }],
+
+		"comma-dangle": [
+			"error",
+			{"objects": "always"}],
+
 		"eol-last": [
 			"error",
 			"always"],
+
+		"space-before-blocks": "error",
 
 		"space-infix-ops": [
 			"error",
