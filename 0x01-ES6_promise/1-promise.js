@@ -11,6 +11,3 @@ const getFullResponseFromAPI = (bool) => {
     }
   });
 };
-
-console.log(getFullResponseFromAPI(true));
-console.log(getFullResponseFromAPI(false));

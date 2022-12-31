@@ -4,6 +4,3 @@ function getResponseFromAPI() {
 
   });
 }
-
-const response = getResponseFromAPI();
-console.log(response instanceof Promise);
