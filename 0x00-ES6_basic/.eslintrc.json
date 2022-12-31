@@ -51,7 +51,14 @@
 		"no-multi-spaces":
 		  "error",
 
-		"space-before-blocks": "error",
+		"space-before-blocks":
+		"error",
+
+		"prefer-const":
+		"error",
+
+		"no-param-reassign":
+		"error",
 
 		"space-infix-ops": [
 			"error",
