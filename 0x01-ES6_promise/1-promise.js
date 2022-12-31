@@ -1,5 +1,5 @@
 /* eslint-disable  no-unused-vars */
-export const getFullResponseFromAPI = (bool) => {
+export default getFullResponseFromAPI = (bool) => {
   return new Promise((resolve, reject) => {
     if (bool) {
       resolve(
