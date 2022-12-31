@@ -61,6 +61,11 @@
 		"error",
 		{ "props": true }],
 
+		"camelcase": [
+			"error",
+			{ "properties": "always" }
+		],
+
 		"space-infix-ops": [
 			"error",
 			{ "int32Hint": false }],
