@@ -1,18 +1,20 @@
-function handleResponseFromAPI(promise){
+/* eslint-disable  no-unused-vars */
+function handleResponseFromAPI(promise) {
   new Promise((resolve, reject) => {
-    if (promise){
+    if (promise) {
       resolve(
-        {status:200, body:'success'}
-      )
+        {
+          status: 200, body: 'success',
+        }
+      );
     } else if(!promise) {
-      reject()
+      reject();
     }
   }).then((param) => {
-    return param
+    return param;
   } ).catch((message) => {
-    console.log(message)
+    console.log(message);
   }).then(() => {
-    console.log('Got a response from the API')
-  })
-
+    console.log('Got a response from the API');
+  });
 }
