@@ -57,8 +57,9 @@
 		"prefer-const":
 		"error",
 
-		"no-param-reassign":
+		"no-param-reassign": [
 		"error",
+		{ "props": true }],
 
 		"space-infix-ops": [
 			"error",
