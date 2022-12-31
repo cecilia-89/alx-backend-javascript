@@ -5,10 +5,10 @@ export default function getFullResponseFromAPI(bool) {
       resolve(
         {
           status: 200,
-          body: 'success',
+          body: 'Success',
         }
       );
     }
-    reject(new Error('The fake API is not working currently'));
+    reject('The fake API is not working currently');
   });
 };
