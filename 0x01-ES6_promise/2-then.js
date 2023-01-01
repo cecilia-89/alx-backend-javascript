@@ -8,7 +8,7 @@ export default function handleResponseFromAPI(promise) {
         }
       );
     } else if(!promise) {
-      reject();
+      reject(new Error());
     }
   }).then((param) => {
     return param;
