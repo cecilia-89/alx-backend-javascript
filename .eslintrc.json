@@ -3,7 +3,7 @@
 		"browser": true,
 		"es2021": true
 	},
-	"extends": "eslint:all",
+	"extends": "eslint:recommended",
 	"overrides": [
 	],
 	"parserOptions": {
