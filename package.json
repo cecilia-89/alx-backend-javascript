@@ -1,9 +1,4 @@
 {
-  "name": "alx-backend-javascript",
-  "type": "module",
-  "version": "1.0.0",
-  "description": "",
-  "main": ".eslintrc.js",
   "dependencies": {
     "babel-jest": "^29.3.1",
     "eslint-config-google": "^0.14.0",
