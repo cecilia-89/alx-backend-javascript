@@ -1,9 +1,4 @@
 {
-  "name": "alx-backend-javascript",
-  "type": "module",
-  "version": "1.0.0",
-  "description": "",
-  "main": ".eslintrc.js",
   "dependencies": {
     "babel-jest": "^29.3.1",
     "eslint-config-google": "^0.14.0",
@@ -24,6 +19,14 @@
     "es6": true
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Atabong Cecilia",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cecilia-89/alx-backend-javascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cecilia-89/alx-backend-javascript/issues"
+  },
+  "homepage": "https://github.com/cecilia-89/alx-backend-javascript#readme"
 }
