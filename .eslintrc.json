@@ -16,6 +16,10 @@
 
 	"rules": {
 		"no-console":"off",
+		"no-underscore-dangle": [
+			"error",
+			{ "allowAfterThis": true }
+		],
 		"import/extensions": [
 			"error", {
 				"js":"ignorePackages"

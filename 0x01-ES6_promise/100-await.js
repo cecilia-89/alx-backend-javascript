@@ -16,3 +16,11 @@ export default async function asyncUploadUser() {
     user,
   };
 }
+
+
+const test = async () => {
+  const value = await asyncUploadUser();
+  console.log(value);
+};
+
+test();
