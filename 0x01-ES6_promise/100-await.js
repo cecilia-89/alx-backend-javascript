@@ -1,4 +1,4 @@
-import { createUser, uploadPhoto } from './utils.js';
+import { createUser, uploadPhoto } from './utils';
 
 export default async function asyncUploadUser() {
   let photo;
@@ -16,11 +16,3 @@ export default async function asyncUploadUser() {
     user,
   };
 }
-
-
-const test = async () => {
-  const value = await asyncUploadUser();
-  console.log(value);
-};
-
-test();
