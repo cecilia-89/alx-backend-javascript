@@ -1,6 +1,6 @@
-import ClassRoom from './0-classroom.js';
+import ClassRoom from './0-classroom';
 
-const initializeRooms = () => {
+export default function initializeRooms(){
   const obj = [];
 
   [19, 20, 34].forEach((num) => {
@@ -9,5 +9,3 @@ const initializeRooms = () => {
 
   return obj;
 };
-
-console.log(initializeRooms());
