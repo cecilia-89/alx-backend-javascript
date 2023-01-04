@@ -18,7 +18,8 @@
 		"no-console":"off",
 		"no-underscore-dangle": [
 			"error",
-			{ "allowAfterThis": true }
+			{"allow": ["_name", "_code"],
+			 "allowAfterThis": true }
 		],
 		"import/extensions": [
 			"error", {
