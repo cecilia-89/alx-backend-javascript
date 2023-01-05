@@ -16,9 +16,10 @@
 
 	"rules": {
 		"no-console":"off",
+		"max-classes-per-file": ["error", 2],
 		"no-underscore-dangle": [
 			"error",
-			{"allow": ["_name", "_code"],
+			{"allow": ["_name", "_code", "_year", "_location"],
 			 "allowAfterThis": true }
 		],
 		"import/extensions": [
