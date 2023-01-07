@@ -16,6 +16,7 @@
 
 	"rules": {
 		"no-console":"off",
+		"no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"],
 		"class-methods-use-this": ["error", { "exceptMethods": ["cloneCar"] }],
 		"max-classes-per-file": ["error", 2],
 		"no-underscore-dangle": [
