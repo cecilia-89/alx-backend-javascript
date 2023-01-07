@@ -2,7 +2,9 @@ const getListStudentIds = (args) => {
   if (!Array.isArray(args)) {
     return [];
   }
-  return args.filter((arg) => arg.id);
+  return args.map((arg) => {
+    return arg.id;
+  });
 };
 
 export default getListStudentIds;

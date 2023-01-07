@@ -3,3 +3,4 @@ const setFromArray = (array) => {
   return setObj;
 };
 
+export default setFromArray;

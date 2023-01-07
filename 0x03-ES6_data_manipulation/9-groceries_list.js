@@ -8,5 +8,5 @@ const groceriesList = () => {
   };
 
   return new Map(Object.entries(groceries));
-}
-export default groceriesList
+};
+export default groceriesList;
