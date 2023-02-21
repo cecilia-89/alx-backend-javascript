@@ -2,9 +2,13 @@ const cleanSet = (set, startString) => {
   if (startString === '') return '';
 
   const result = [...set]
-    .filter((item) => item !== undefined
-    .filter((item) => item.startsWith(startString))
-    .map((ele) => ele.replace(startString, '')));
+    .filter((item) => {
+      if (item !== undefined) {
+        return item
+      }
+    }).map((ele) => {
+      return ele.replace(startString, '')
+    })
 
   return result.join('-');
 };
