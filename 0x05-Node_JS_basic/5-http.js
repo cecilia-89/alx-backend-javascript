@@ -5,7 +5,7 @@ const hostname = '127.0.0.1';
 const port = 1245;
 
 const app = http.createServer((req, res) => {
-  const req_url = uel.parse(req.url).pathname
+  const req_url = url.parse(req.url).pathname
   if (req_url == '/') {
     res.write('Hello Holberton School!');
     res.end();
