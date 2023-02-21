@@ -1,13 +1,13 @@
-const app = require('http');
+const http = require('http');
 
 const hostname = '127.0.0.1';
 const port = 1245;
 
-const server = app.createServer((req, res) => {
+const app = http.createServer((req, res) => {
   res.end('Hello Holberton School!');
 });
 
-server.listen(port, hostname, () => {
+app.listen(port, hostname, () => {
   console.log(`server running at ${port}`);
 });
 
